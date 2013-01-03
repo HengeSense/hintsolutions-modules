@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		24416B8111C4CA220047AFDD /* Build & Test */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */;
+			buildPhases = (
+				24416B8011C4CA220047AFDD /* ShellScript */,
+			);
+			dependencies = (
+				24416B8511C4CA280047AFDD /* PBXTargetDependency */,
+			);
+			name = "Build & Test";
+			productName = "Build & test";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		24DD6CF91134B3F500162E58 /* RuHintsolutionsStackmobModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* RuHintsolutionsStackmobModule.h */; };
+		24DD6CFA1134B3F500162E58 /* RuHintsolutionsStackmobModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* RuHintsolutionsStackmobModule.m */; };
+		24DE9E1111C5FE74003F90F6 /* RuHintsolutionsStackmobModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* RuHintsolutionsStackmobModuleAssets.h */; };
+		24DE9E1211C5FE74003F90F6 /* RuHintsolutionsStackmobModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* RuHintsolutionsStackmobModuleAssets.m */; };
+		40404320168EE215008C58AE /* AFHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 404042F6168EE215008C58AE /* AFHTTPClient.h */; };
+		40404321168EE215008C58AE /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 404042F7168EE215008C58AE /* AFHTTPRequestOperation.h */; };
+		40404322168EE215008C58AE /* AFImageRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 404042F8168EE215008C58AE /* AFImageRequestOperation.h */; };
+		40404323168EE215008C58AE /* AFJSONRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 404042F9168EE215008C58AE /* AFJSONRequestOperation.h */; };
+		40404324168EE215008C58AE /* AFJSONUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 404042FA168EE215008C58AE /* AFJSONUtilities.h */; };
+		40404325168EE215008C58AE /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 404042FB168EE215008C58AE /* AFNetworkActivityIndicatorManager.h */; };
+		40404326168EE215008C58AE /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 404042FC168EE215008C58AE /* AFNetworking.h */; };
+		40404327168EE215008C58AE /* AFPropertyListRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 404042FD168EE215008C58AE /* AFPropertyListRequestOperation.h */; };
+		40404328168EE215008C58AE /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 404042FE168EE215008C58AE /* AFURLConnectionOperation.h */; };
+		40404329168EE215008C58AE /* AFXMLRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 404042FF168EE215008C58AE /* AFXMLRequestOperation.h */; };
+		4040432A168EE215008C58AE /* Base64EncodedStringFromData.h in Headers */ = {isa = PBXBuildFile; fileRef = 40404300168EE215008C58AE /* Base64EncodedStringFromData.h */; };
+		4040432B168EE215008C58AE /* KeychainWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 40404301168EE215008C58AE /* KeychainWrapper.h */; };
+		4040432C168EE215008C58AE /* NSArray+Enumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = 40404302168EE215008C58AE /* NSArray+Enumerable.h */; };
+		4040432D168EE215008C58AE /* NSDictionary+AtomicCounter.h in Headers */ = {isa = PBXBuildFile; fileRef = 40404303168EE215008C58AE /* NSDictionary+AtomicCounter.h */; };
+		4040432E168EE215008C58AE /* NSEntityDescription+StackMobSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 40404304168EE215008C58AE /* NSEntityDescription+StackMobSerialization.h */; };
+		4040432F168EE215008C58AE /* NSManagedObject+StackMobSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 40404305168EE215008C58AE /* NSManagedObject+StackMobSerialization.h */; };
+		40404330168EE215008C58AE /* SMBinaryDataConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 40404306168EE215008C58AE /* SMBinaryDataConversion.h */; };
+		40404331168EE215008C58AE /* SMClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 40404307168EE215008C58AE /* SMClient.h */; };
+		40404332168EE215008C58AE /* SMCoreDataStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 40404308168EE215008C58AE /* SMCoreDataStore.h */; };
+		40404333168EE215008C58AE /* SMCustomCodeRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 40404309168EE215008C58AE /* SMCustomCodeRequest.h */; };
+		40404334168EE215008C58AE /* SMDataStore+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 4040430A168EE215008C58AE /* SMDataStore+Protected.h */; };
+		40404335168EE215008C58AE /* SMDataStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 4040430B168EE215008C58AE /* SMDataStore.h */; };
+		40404336168EE215008C58AE /* SMError.h in Headers */ = {isa = PBXBuildFile; fileRef = 4040430C168EE215008C58AE /* SMError.h */; };
+		40404337168EE215008C58AE /* SMIncrementalStore+Query.h in Headers */ = {isa = PBXBuildFile; fileRef = 4040430D168EE215008C58AE /* SMIncrementalStore+Query.h */; };
+		40404338168EE215008C58AE /* SMIncrementalStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 4040430E168EE215008C58AE /* SMIncrementalStore.h */; };
+		40404339168EE215008C58AE /* SMJSONRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4040430F168EE215008C58AE /* SMJSONRequestOperation.h */; };
+		4040433A168EE215008C58AE /* SMNetworkReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 40404310168EE215008C58AE /* SMNetworkReachability.h */; };
+		4040433B168EE215008C58AE /* SMOAuth1Client.h in Headers */ = {isa = PBXBuildFile; fileRef = 40404311168EE215008C58AE /* SMOAuth1Client.h */; };
+		4040433C168EE215008C58AE /* SMOAuth2Client.h in Headers */ = {isa = PBXBuildFile; fileRef = 40404312168EE215008C58AE /* SMOAuth2Client.h */; };
+		4040433D168EE215008C58AE /* SMPushClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 40404313168EE215008C58AE /* SMPushClient.h */; };
+		4040433E168EE215008C58AE /* SMPushToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 40404314168EE215008C58AE /* SMPushToken.h */; };
+		4040433F168EE215008C58AE /* SMQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 40404315168EE215008C58AE /* SMQuery.h */; };
+		40404340168EE215008C58AE /* SMRequestOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 40404316168EE215008C58AE /* SMRequestOptions.h */; };
+		40404341168EE215008C58AE /* SMResponseBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 40404317168EE215008C58AE /* SMResponseBlocks.h */; };
+		40404342168EE215008C58AE /* SMUserManagedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 40404318168EE215008C58AE /* SMUserManagedObject.h */; };
+		40404343168EE215008C58AE /* SMUserSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 40404319168EE215008C58AE /* SMUserSession.h */; };
+		40404344168EE215008C58AE /* SMVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 4040431A168EE215008C58AE /* SMVersion.h */; };
+		40404345168EE215008C58AE /* StackMob.h in Headers */ = {isa = PBXBuildFile; fileRef = 4040431B168EE215008C58AE /* StackMob.h */; };
+		40404346168EE215008C58AE /* StackMobPush.h in Headers */ = {isa = PBXBuildFile; fileRef = 4040431C168EE215008C58AE /* StackMobPush.h */; };
+		40404347168EE215008C58AE /* Synchronization.h in Headers */ = {isa = PBXBuildFile; fileRef = 4040431D168EE215008C58AE /* Synchronization.h */; };
+		40404348168EE215008C58AE /* SystemInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4040431E168EE215008C58AE /* SystemInformation.h */; };
+		40404349168EE215008C58AE /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 4040431F168EE215008C58AE /* UIImageView+AFNetworking.h */; };
+		40404383168F3A9D008C58AE /* libstackmob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40404376168F36A3008C58AE /* libstackmob.a */; };
+		40404385168F3AA0008C58AE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40404374168F369D008C58AE /* CoreData.framework */; };
+		40404386168F3AA2008C58AE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40404372168F368F008C58AE /* SystemConfiguration.framework */; };
+		40404387168F3AA4008C58AE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40404370168F3688008C58AE /* MobileCoreServices.framework */; };
+		AA747D9F0F9514B9006C5449 /* RuHintsolutionsStackmob_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* RuHintsolutionsStackmob_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24416B8411C4CA280047AFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = module;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24DD6CF71134B3F500162E58 /* RuHintsolutionsStackmobModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RuHintsolutionsStackmobModule.h; path = Classes/RuHintsolutionsStackmobModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* RuHintsolutionsStackmobModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RuHintsolutionsStackmobModule.m; path = Classes/RuHintsolutionsStackmobModule.m; sourceTree = "<group>"; };
+		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
+		24DE9E0F11C5FE74003F90F6 /* RuHintsolutionsStackmobModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RuHintsolutionsStackmobModuleAssets.h; path = Classes/RuHintsolutionsStackmobModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* RuHintsolutionsStackmobModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RuHintsolutionsStackmobModuleAssets.m; path = Classes/RuHintsolutionsStackmobModuleAssets.m; sourceTree = "<group>"; };
+		404042F6168EE215008C58AE /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		404042F7168EE215008C58AE /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		404042F8168EE215008C58AE /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		404042F9168EE215008C58AE /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		404042FA168EE215008C58AE /* AFJSONUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONUtilities.h; sourceTree = "<group>"; };
+		404042FB168EE215008C58AE /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		404042FC168EE215008C58AE /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		404042FD168EE215008C58AE /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		404042FE168EE215008C58AE /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		404042FF168EE215008C58AE /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		40404300168EE215008C58AE /* Base64EncodedStringFromData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64EncodedStringFromData.h; sourceTree = "<group>"; };
+		40404301168EE215008C58AE /* KeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainWrapper.h; sourceTree = "<group>"; };
+		40404302168EE215008C58AE /* NSArray+Enumerable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Enumerable.h"; sourceTree = "<group>"; };
+		40404303168EE215008C58AE /* NSDictionary+AtomicCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+AtomicCounter.h"; sourceTree = "<group>"; };
+		40404304168EE215008C58AE /* NSEntityDescription+StackMobSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSEntityDescription+StackMobSerialization.h"; sourceTree = "<group>"; };
+		40404305168EE215008C58AE /* NSManagedObject+StackMobSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+StackMobSerialization.h"; sourceTree = "<group>"; };
+		40404306168EE215008C58AE /* SMBinaryDataConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMBinaryDataConversion.h; sourceTree = "<group>"; };
+		40404307168EE215008C58AE /* SMClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMClient.h; sourceTree = "<group>"; };
+		40404308168EE215008C58AE /* SMCoreDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCoreDataStore.h; sourceTree = "<group>"; };
+		40404309168EE215008C58AE /* SMCustomCodeRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCustomCodeRequest.h; sourceTree = "<group>"; };
+		4040430A168EE215008C58AE /* SMDataStore+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SMDataStore+Protected.h"; sourceTree = "<group>"; };
+		4040430B168EE215008C58AE /* SMDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMDataStore.h; sourceTree = "<group>"; };
+		4040430C168EE215008C58AE /* SMError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMError.h; sourceTree = "<group>"; };
+		4040430D168EE215008C58AE /* SMIncrementalStore+Query.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SMIncrementalStore+Query.h"; sourceTree = "<group>"; };
+		4040430E168EE215008C58AE /* SMIncrementalStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMIncrementalStore.h; sourceTree = "<group>"; };
+		4040430F168EE215008C58AE /* SMJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMJSONRequestOperation.h; sourceTree = "<group>"; };
+		40404310168EE215008C58AE /* SMNetworkReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMNetworkReachability.h; sourceTree = "<group>"; };
+		40404311168EE215008C58AE /* SMOAuth1Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMOAuth1Client.h; sourceTree = "<group>"; };
+		40404312168EE215008C58AE /* SMOAuth2Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMOAuth2Client.h; sourceTree = "<group>"; };
+		40404313168EE215008C58AE /* SMPushClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMPushClient.h; sourceTree = "<group>"; };
+		40404314168EE215008C58AE /* SMPushToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMPushToken.h; sourceTree = "<group>"; };
+		40404315168EE215008C58AE /* SMQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMQuery.h; sourceTree = "<group>"; };
+		40404316168EE215008C58AE /* SMRequestOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMRequestOptions.h; sourceTree = "<group>"; };
+		40404317168EE215008C58AE /* SMResponseBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMResponseBlocks.h; sourceTree = "<group>"; };
+		40404318168EE215008C58AE /* SMUserManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMUserManagedObject.h; sourceTree = "<group>"; };
+		40404319168EE215008C58AE /* SMUserSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMUserSession.h; sourceTree = "<group>"; };
+		4040431A168EE215008C58AE /* SMVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMVersion.h; sourceTree = "<group>"; };
+		4040431B168EE215008C58AE /* StackMob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackMob.h; sourceTree = "<group>"; };
+		4040431C168EE215008C58AE /* StackMobPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackMobPush.h; sourceTree = "<group>"; };
+		4040431D168EE215008C58AE /* Synchronization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Synchronization.h; sourceTree = "<group>"; };
+		4040431E168EE215008C58AE /* SystemInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemInformation.h; sourceTree = "<group>"; };
+		4040431F168EE215008C58AE /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		4040435E168F2B81008C58AE /* module.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = module.xcconfig; sourceTree = "<group>"; };
+		40404370168F3688008C58AE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		40404372168F368F008C58AE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		40404374168F369D008C58AE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		40404376168F36A3008C58AE /* libstackmob.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libstackmob.a; path = Frameworks/Library/libstackmob.a; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* RuHintsolutionsStackmob_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuHintsolutionsStackmob_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libRuHintsolutionsStackmob.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRuHintsolutionsStackmob.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+				40404383168F3A9D008C58AE /* libstackmob.a in Frameworks */,
+				40404385168F3AA0008C58AE /* CoreData.framework in Frameworks */,
+				40404386168F3AA2008C58AE /* SystemConfiguration.framework in Frameworks */,
+				40404387168F3AA4008C58AE /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libRuHintsolutionsStackmob.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* module */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = module;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+				40404374168F369D008C58AE /* CoreData.framework */,
+				40404372168F368F008C58AE /* SystemConfiguration.framework */,
+				40404370168F3688008C58AE /* MobileCoreServices.framework */,
+				40404376168F36A3008C58AE /* libstackmob.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				404042F5168EE215008C58AE /* StackMob */,
+				24DE9E0F11C5FE74003F90F6 /* RuHintsolutionsStackmobModuleAssets.h */,
+				24DE9E1011C5FE74003F90F6 /* RuHintsolutionsStackmobModuleAssets.m */,
+				24DD6CF71134B3F500162E58 /* RuHintsolutionsStackmobModule.h */,
+				24DD6CF81134B3F500162E58 /* RuHintsolutionsStackmobModule.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* RuHintsolutionsStackmob_Prefix.pch */,
+				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
+				4040435E168F2B81008C58AE /* module.xcconfig */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		404042F5168EE215008C58AE /* StackMob */ = {
+			isa = PBXGroup;
+			children = (
+				404042F6168EE215008C58AE /* AFHTTPClient.h */,
+				404042F7168EE215008C58AE /* AFHTTPRequestOperation.h */,
+				404042F8168EE215008C58AE /* AFImageRequestOperation.h */,
+				404042F9168EE215008C58AE /* AFJSONRequestOperation.h */,
+				404042FA168EE215008C58AE /* AFJSONUtilities.h */,
+				404042FB168EE215008C58AE /* AFNetworkActivityIndicatorManager.h */,
+				404042FC168EE215008C58AE /* AFNetworking.h */,
+				404042FD168EE215008C58AE /* AFPropertyListRequestOperation.h */,
+				404042FE168EE215008C58AE /* AFURLConnectionOperation.h */,
+				404042FF168EE215008C58AE /* AFXMLRequestOperation.h */,
+				40404300168EE215008C58AE /* Base64EncodedStringFromData.h */,
+				40404301168EE215008C58AE /* KeychainWrapper.h */,
+				40404302168EE215008C58AE /* NSArray+Enumerable.h */,
+				40404303168EE215008C58AE /* NSDictionary+AtomicCounter.h */,
+				40404304168EE215008C58AE /* NSEntityDescription+StackMobSerialization.h */,
+				40404305168EE215008C58AE /* NSManagedObject+StackMobSerialization.h */,
+				40404306168EE215008C58AE /* SMBinaryDataConversion.h */,
+				40404307168EE215008C58AE /* SMClient.h */,
+				40404308168EE215008C58AE /* SMCoreDataStore.h */,
+				40404309168EE215008C58AE /* SMCustomCodeRequest.h */,
+				4040430A168EE215008C58AE /* SMDataStore+Protected.h */,
+				4040430B168EE215008C58AE /* SMDataStore.h */,
+				4040430C168EE215008C58AE /* SMError.h */,
+				4040430D168EE215008C58AE /* SMIncrementalStore+Query.h */,
+				4040430E168EE215008C58AE /* SMIncrementalStore.h */,
+				4040430F168EE215008C58AE /* SMJSONRequestOperation.h */,
+				40404310168EE215008C58AE /* SMNetworkReachability.h */,
+				40404311168EE215008C58AE /* SMOAuth1Client.h */,
+				40404312168EE215008C58AE /* SMOAuth2Client.h */,
+				40404313168EE215008C58AE /* SMPushClient.h */,
+				40404314168EE215008C58AE /* SMPushToken.h */,
+				40404315168EE215008C58AE /* SMQuery.h */,
+				40404316168EE215008C58AE /* SMRequestOptions.h */,
+				40404317168EE215008C58AE /* SMResponseBlocks.h */,
+				40404318168EE215008C58AE /* SMUserManagedObject.h */,
+				40404319168EE215008C58AE /* SMUserSession.h */,
+				4040431A168EE215008C58AE /* SMVersion.h */,
+				4040431B168EE215008C58AE /* StackMob.h */,
+				4040431C168EE215008C58AE /* StackMobPush.h */,
+				4040431D168EE215008C58AE /* Synchronization.h */,
+				4040431E168EE215008C58AE /* SystemInformation.h */,
+				4040431F168EE215008C58AE /* UIImageView+AFNetworking.h */,
+			);
+			name = StackMob;
+			path = Classes/StackMob;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* RuHintsolutionsStackmob_Prefix.pch in Headers */,
+				24DD6CF91134B3F500162E58 /* RuHintsolutionsStackmobModule.h in Headers */,
+				24DE9E1111C5FE74003F90F6 /* RuHintsolutionsStackmobModuleAssets.h in Headers */,
+				40404320168EE215008C58AE /* AFHTTPClient.h in Headers */,
+				40404321168EE215008C58AE /* AFHTTPRequestOperation.h in Headers */,
+				40404322168EE215008C58AE /* AFImageRequestOperation.h in Headers */,
+				40404323168EE215008C58AE /* AFJSONRequestOperation.h in Headers */,
+				40404324168EE215008C58AE /* AFJSONUtilities.h in Headers */,
+				40404325168EE215008C58AE /* AFNetworkActivityIndicatorManager.h in Headers */,
+				40404326168EE215008C58AE /* AFNetworking.h in Headers */,
+				40404327168EE215008C58AE /* AFPropertyListRequestOperation.h in Headers */,
+				40404328168EE215008C58AE /* AFURLConnectionOperation.h in Headers */,
+				40404329168EE215008C58AE /* AFXMLRequestOperation.h in Headers */,
+				4040432A168EE215008C58AE /* Base64EncodedStringFromData.h in Headers */,
+				4040432B168EE215008C58AE /* KeychainWrapper.h in Headers */,
+				4040432C168EE215008C58AE /* NSArray+Enumerable.h in Headers */,
+				4040432D168EE215008C58AE /* NSDictionary+AtomicCounter.h in Headers */,
+				4040432E168EE215008C58AE /* NSEntityDescription+StackMobSerialization.h in Headers */,
+				4040432F168EE215008C58AE /* NSManagedObject+StackMobSerialization.h in Headers */,
+				40404330168EE215008C58AE /* SMBinaryDataConversion.h in Headers */,
+				40404331168EE215008C58AE /* SMClient.h in Headers */,
+				40404332168EE215008C58AE /* SMCoreDataStore.h in Headers */,
+				40404333168EE215008C58AE /* SMCustomCodeRequest.h in Headers */,
+				40404334168EE215008C58AE /* SMDataStore+Protected.h in Headers */,
+				40404335168EE215008C58AE /* SMDataStore.h in Headers */,
+				40404336168EE215008C58AE /* SMError.h in Headers */,
+				40404337168EE215008C58AE /* SMIncrementalStore+Query.h in Headers */,
+				40404338168EE215008C58AE /* SMIncrementalStore.h in Headers */,
+				40404339168EE215008C58AE /* SMJSONRequestOperation.h in Headers */,
+				4040433A168EE215008C58AE /* SMNetworkReachability.h in Headers */,
+				4040433B168EE215008C58AE /* SMOAuth1Client.h in Headers */,
+				4040433C168EE215008C58AE /* SMOAuth2Client.h in Headers */,
+				4040433D168EE215008C58AE /* SMPushClient.h in Headers */,
+				4040433E168EE215008C58AE /* SMPushToken.h in Headers */,
+				4040433F168EE215008C58AE /* SMQuery.h in Headers */,
+				40404340168EE215008C58AE /* SMRequestOptions.h in Headers */,
+				40404341168EE215008C58AE /* SMResponseBlocks.h in Headers */,
+				40404342168EE215008C58AE /* SMUserManagedObject.h in Headers */,
+				40404343168EE215008C58AE /* SMUserSession.h in Headers */,
+				40404344168EE215008C58AE /* SMVersion.h in Headers */,
+				40404345168EE215008C58AE /* StackMob.h in Headers */,
+				40404346168EE215008C58AE /* StackMobPush.h in Headers */,
+				40404347168EE215008C58AE /* Synchronization.h in Headers */,
+				40404348168EE215008C58AE /* SystemInformation.h in Headers */,
+				40404349168EE215008C58AE /* UIImageView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* module */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "module" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = module;
+			productName = module;
+			productReference = D2AAC07E0554694100DB518D /* libRuHintsolutionsStackmob.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "module" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* module */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* module */,
+				24416B8111C4CA220047AFDD /* Build & Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24416B8011C4CA220047AFDD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\n\npython \"${TITANIUM_SDK}/titanium.py\" run --dir=\"${PROJECT_DIR}\"\nexit $?\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DD6CFA1134B3F500162E58 /* RuHintsolutionsStackmobModule.m in Sources */,
+				24DE9E1211C5FE74003F90F6 /* RuHintsolutionsStackmobModuleAssets.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24416B8511C4CA280047AFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* module */;
+			targetProxy = 24416B8411C4CA280047AFDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphoneos*]" = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/RuHintsolutionsStackmob.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RuHintsolutionsStackmob_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = RuHintsolutionsStackmob;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "$(inherited)";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphoneos*]" = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				DSTROOT = /tmp/RuHintsolutionsStackmob.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RuHintsolutionsStackmob_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = RuHintsolutionsStackmob;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "$(inherited)";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "$(inherited)";
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphoneos*]" = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/RuHintsolutionsStackmob.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RuHintsolutionsStackmob_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RuHintsolutionsStackmob;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphoneos*]" = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				DSTROOT = /tmp/RuHintsolutionsStackmob.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RuHintsolutionsStackmob_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RuHintsolutionsStackmob;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		24416B8211C4CA220047AFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Build & test";
+			};
+			name = Debug;
+		};
+		24416B8311C4CA220047AFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Build & test";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "module" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "module" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24416B8211C4CA220047AFDD /* Debug */,
+				24416B8311C4CA220047AFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

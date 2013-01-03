@@ -1,0 +1,17 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.1
+apiversion: 2
+description: StackMob Module
+author: hintsolutions
+license: LGPL
+copyright: Copyright (c) 2012 by hintsolutions
+
+# these should not be edited
+name: module
+moduleid: ru.hintsolutions.stackmob
+guid: e5e006bd-fe48-42c4-9f3d-3b6f5a367e9b
+platform: iphone
+minsdk: 2.0.1.GA

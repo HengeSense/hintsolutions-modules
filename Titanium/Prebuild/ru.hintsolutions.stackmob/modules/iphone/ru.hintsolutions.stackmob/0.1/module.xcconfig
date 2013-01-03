@@ -1,0 +1,2 @@
+OTHER_LDFLAGS_FRAMEWORKS = -framework CoreData -framework SystemConfiguration -framework MobileCoreServices -framework Security
+OTHER_LDFLAGS = $(inherited) $(OTHER_LDFLAGS_FRAMEWORKS)

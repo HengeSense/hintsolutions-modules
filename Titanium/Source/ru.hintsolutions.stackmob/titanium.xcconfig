@@ -1,0 +1,10 @@
+TITANIUM_SDK_VERSION = 2.0.1.GA
+
+TITANIUM_SDK = ~/Library/Application Support/Titanium/mobilesdk/osx/$(TITANIUM_SDK_VERSION)
+TITANIUM_BASE_SDK = "$(TITANIUM_SDK)/iphone/include"
+TITANIUM_BASE_SDK_CORE = "$(TITANIUM_SDK)/iphone/include/TiCore"
+
+STACKMOB_SDK = "$(SRCROOT)/Frameworks"
+
+HEADER_SEARCH_PATHS = $(inherited) "$(STACKMOB_SDK)/Headers" $(TITANIUM_BASE_SDK) $(TITANIUM_BASE_SDK_CORE)
+LIBRARY_SEARCH_PATHS = $(inherited) "$(STACKMOB_SDK)/Library"
