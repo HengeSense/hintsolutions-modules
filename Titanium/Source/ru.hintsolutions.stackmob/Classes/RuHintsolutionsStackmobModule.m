@@ -102,8 +102,8 @@
                 NSMutableDictionary* dictHeaders = [NSMutableDictionary dictionary];
                 [headers enumerateKeysAndObjectsUsingBlock:^(id key, id obj, BOOL *stop)
                  {
-                     [dictHeaders setObject:[TiUtils stringValue:key]
-                                     forKey:[TiUtils stringValue:obj]];
+                     [dictHeaders setObject:[TiUtils stringValue:obj]
+                                     forKey:[TiUtils stringValue:key]];
                      *stop = NO;
                  }];
                 [query setRequestHeaders:dictHeaders];
@@ -114,8 +114,8 @@
                 NSMutableDictionary* dictParams = [NSMutableDictionary dictionary];
                 [params enumerateKeysAndObjectsUsingBlock:^(id key, id obj, BOOL *stop)
                  {
-                     [dictParams setObject:[TiUtils stringValue:key]
-                                     forKey:[TiUtils stringValue:obj]];
+                     [dictParams setObject:[TiUtils stringValue:obj]
+                                     forKey:[TiUtils stringValue:key]];
                      *stop = NO;
                  }];
                 [query setRequestParameters:dictParams];
@@ -236,8 +236,8 @@
             {
                 [params enumerateKeysAndObjectsUsingBlock:^(id key, id obj, BOOL *stop)
                  {
-                     [query addQueryStringParameterWhere:[TiUtils stringValue:key]
-                                                  equals:[TiUtils stringValue:obj]];
+                     [query addQueryStringParameterWhere:[TiUtils stringValue:obj]
+                                                  equals:[TiUtils stringValue:key]];
                      *stop = NO;
                  }];
             }
